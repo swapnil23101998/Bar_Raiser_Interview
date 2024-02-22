@@ -1,0 +1,48 @@
+.draw_card_button, .card_container {
+    height: 250px;
+    width: 150px;
+    border: 2px solid brown;
+    border-radius: 10px; 
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-style: bold;
+    background-color: white;
+    cursor: pointer;
+}
+
+.card_container { 
+    font-size: 2rem;
+    font-style: bold;
+    display: flex; 
+    flex-direction: column;
+}
+
+.card_list_wrapper {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap; 
+} 
+
+.error_message {
+   color: red;
+   margin: 30px;
+   font-size: 2rem;
+   font-style: bold;
+}
+
+/* .val, .suit {
+    height: 100%;
+    margin: 5px;
+} */
+
+.val {
+    width: 100%;
+    text-align: left;
+}
+
+.color_red {
+    color: red;
+}
